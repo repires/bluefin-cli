@@ -79,9 +79,9 @@ brew install bluefin-cli
 
 > **Status (2026-10-17):** use `ublue-os/homebrew-experimental-tap` above.
 > The primary tap [`tuna-os/homebrew-tap`](https://github.com/tuna-os/homebrew-tap)
-> is pending: automated GoReleaser publishing is configured but currently
-> skipped until an organization administrator configures the
-> `HOMEBREW_TAP_TOKEN` repository secret ([#295](https://github.com/tuna-os/bluefin-cli/issues/295)).
+> is not available yet. The GoReleaser configuration includes the Homebrew
+> publisher, but GoReleaser skips it until an organization administrator sets
+> the `HOMEBREW_TAP_TOKEN` repository secret ([#295](https://github.com/tuna-os/bluefin-cli/issues/295)).
 > For maintainer token and setup details, see
 > [`docs/release-publishing.md`](docs/release-publishing.md). Once published,
 > `brew tap tuna-os/tap && brew install bluefin-cli` will be the primary path.
